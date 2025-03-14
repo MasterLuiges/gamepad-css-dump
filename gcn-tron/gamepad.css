@@ -22,9 +22,15 @@
     background-size: cover;
     position: absolute;
     top: 27px;
-    left: 13px;
-    width: 208px;
-    height: 39px;
+    left: calc(13px + 208px);
+}
+
+.custom .trigger.left,
+.custom .trigger.right {
+    transform: rotate(90deg);
+    transform-origin: left top;
+    width: 39px;
+    height: 208px;
 }
 
 .custom .trigger.right{
@@ -32,9 +38,7 @@
     background-size: cover;
     position: absolute;
     top: 27px;
-    left: 231px;
-    width: 208px;
-    height: 39px;
+    left: calc(231px + 208px);
 }
 
 .custom .dpad .face.up{
