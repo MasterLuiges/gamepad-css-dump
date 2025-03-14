@@ -1,5 +1,5 @@
-/* Original GC Gamepad display from jayraydee https://jayraydee.me/Assets/Freeport/MinimalistGC/GCFONT.css */
-/* Assets from Aliensqueakytoy's GC Tron Style Input Display V2 from https://www.youtube.com/watch?v=wzqJZa5divY */
+/* Original design and assets by Aliensqueakytoy https://www.youtube.com/watch?v=wzqJZa5divY */
+/* Inspiration from jayraydee's GC Gamepad display https://jayraydee.me/Assets/Freeport/MinimalistGC/GCFONT.css */
 
 .controller.custom {
     background: url("assets/Background.png");
@@ -10,6 +10,7 @@
 
 .custom .bumper.right{
     background: url("assets/Z fill.png") no-repeat;
+    background-size: cover;
     position: absolute;
     top: 26px;
     left: 776px;
@@ -21,14 +22,10 @@
     background: url("assets/Trigger Fill.png") no-repeat;
     background-size: cover;
     position: absolute;
-    top: 27px;
-    left: calc(13px + 208px);
-}
-
-.custom .trigger.left,
-.custom .trigger.right {
     transform: rotate(90deg);
     transform-origin: left top;
+    top: 27px;
+    left: calc(13px + 208px); /* left pos minus height */
     width: 39px;
     height: 208px;
 }
@@ -37,12 +34,17 @@
     background: url("assets/Trigger Fill.png") no-repeat;
     background-size: cover;
     position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: right top;
     top: 27px;
-    left: calc(231px + 208px);
+    left: calc(230px - 39px); /* left pos minus width */
+    width: 39px;
+    height: 208px;
 }
 
 .custom .dpad .face.up{
     background: url("assets/Dpad top.png") no-repeat;
+    background-size: cover;
     position: absolute;
     top: 136px;
     left: 483px;
@@ -52,6 +54,7 @@
 
 .custom .dpad .face.down {
     background: url("assets/Dpad bottom.png") no-repeat;
+    background-size: cover;
     position: absolute;
     top: 207px;
     left: 483px;
@@ -61,6 +64,7 @@
 
 .custom .dpad .face.left {
     background: url("assets/Dpad left.png") no-repeat;
+    background-size: cover;
     position: absolute;
     top: 178px;
     left: 441px;
@@ -70,24 +74,27 @@
 
 .custom .dpad .face.right {
     background: url("assets/Dpad right.png") no-repeat;
+    background-size: cover;
     position: absolute;
     top: 178px;
     left: 512px;
     width: 51px;
-    height: 37px;
+    height: 38px;
 }
 
 .custom .abxy .button.a {
     background: url("assets/A fill.png") no-repeat;
+    background-size: cover;
     position: absolute;
-    top: 134px;
-    left: 668px;
+    top: 133px;
+    left: 669px;
     width: 117px;
     height: 117px;
 }
 
 .custom .abxy .button.b {
     background: url("assets/B button.png") no-repeat;
+    background-size: cover;
     position: absolute;
     top: 192px;
     left: 581px;
@@ -97,6 +104,7 @@
 
 .custom .abxy .button.x {
     background: url("assets/X fill.png") no-repeat;
+    background-size: cover;
     position: absolute;
     top: 117px;
     left: 800px;
@@ -106,6 +114,7 @@
 
 .custom .abxy .button.y {
     background: url("assets/Y fill.png") no-repeat;
+    background-size: cover;
     position: absolute;
     top: 54px;
     left: 646px;
@@ -115,6 +124,7 @@
 
 .custom .arrows .start {
     background: url("assets/Start fill.png") no-repeat;
+    background-size: cover;
     position: absolute;
     top: 39px;
     left: 507px;
@@ -124,6 +134,7 @@
 
 .custom .stick.left{
     background: url("assets/L stick.png") no-repeat;
+    background-size: cover;
     position: absolute;
     top: 120px;
     left: 59px;
@@ -133,6 +144,7 @@
 
 .custom .stick.right {
     background: url("assets/C stick.png") no-repeat;
+    background-size: cover;
     position: absolute;
     top: 138px;
     left: 293px;
@@ -146,6 +158,8 @@
 .custom .bumper,
 .custom .trigger,
 .custom .arrows *{
+    background-size: cover;
+    position: absolute;
     opacity: 0;
 }
 
