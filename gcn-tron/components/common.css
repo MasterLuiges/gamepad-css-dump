@@ -1,0 +1,14 @@
+.custom .button,
+.custom .face,
+.custom .meta,
+.custom .bumper,
+.custom .trigger,
+.custom .arrows *{
+    background-size: cover;
+    position: absolute;
+    opacity: 0;
+}
+
+.custom .pressed{
+    opacity: 1
+}

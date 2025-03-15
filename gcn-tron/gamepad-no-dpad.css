@@ -4,19 +4,18 @@
 @import url("components/common.css");
 @import url("components/triggers-and-sticks.css");
 @import url("components/buttons.css");
-@import url("components/dpad.css");
 
 @layer theme {
     :root {
-        --background-width: 883px;
+        --background-width: 788px;
         --background-height: 307px;
-        --start-button-left: 507px;
-        --start-button-top: 39px;
+        --start-button-left: 451px;
+        --start-button-top: 87px;
     }
 }
 
 .controller.custom {
-    background: url("assets/backgrounds/background.png") no-repeat;
+    background: url("assets/backgrounds/background-no-dpad.png") no-repeat;
     width: var(--background-width);
     height: var(--background-height);
 }

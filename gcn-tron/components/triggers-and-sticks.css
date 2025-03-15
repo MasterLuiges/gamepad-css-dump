@@ -1,0 +1,53 @@
+.custom .trigger.left{
+    background: url("../assets/triggers/L Trigger.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: left top;
+    top: 27px;
+    left: calc(13px + 208px); /* left pos minus height */
+    width: 39px;
+    height: 208px;
+}
+
+.custom .trigger.right{
+    background: url("../assets/triggers/R Trigger.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: right top;
+    top: 27px;
+    left: calc(230px - 39px); /* left pos minus width */
+    width: 39px;
+    height: 208px;
+}
+
+.custom .stick.left{
+    background-color: black;
+    position: absolute;
+    top: 120px;
+    left: 59px;
+    width: 113px;
+    height: 113px;
+    border-radius: 50%;
+}
+
+.custom .stick.left::after{
+    content: '';
+    background: url("../assets/sticks/L stick.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 113px;
+    height: 113px;
+    mix-blend-mode: difference;
+}
+
+.custom .stick.right {
+    background: url("../assets/sticks/C stick.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 138px;
+    left: 293px;
+    width: 80px;
+    height: 80px;
+}

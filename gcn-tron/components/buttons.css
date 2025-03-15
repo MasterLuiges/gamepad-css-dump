@@ -1,0 +1,60 @@
+
+.custom .arrows .start {
+    background: url("../assets/buttons/Start fill.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: var(--start-button-left);
+    top: var(--start-button-top);
+    width: 58px;
+    height: 58px;
+}
+
+.custom .bumper.right{
+    background: url("../assets/buttons/Z fill.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 26px;
+    left: calc(var(--background-width) - 107px);
+    width: 87px;
+    height: 72px;
+}
+
+.custom .abxy .button.a {
+    background: url("../assets/buttons/A fill.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 133px;
+    left: calc(var(--background-width) - 214px);
+    width: 117px;
+    height: 117px;
+}
+
+.custom .abxy .button.b {
+    background: url("../assets/buttons/B fill.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 192px;
+    left: calc(var(--background-width) - 302px);
+    width: 74px;
+    height: 74px;
+}
+
+.custom .abxy .button.x {
+    background: url("../assets/buttons/X fill.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 117px;
+    left: calc(var(--background-width) - 83px);
+    width: 70px;
+    height: 125px;
+}
+
+.custom .abxy .button.y {
+    background: url("../assets/buttons/Y fill.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 54px;
+    left: calc(var(--background-width) - 237px);
+    width: 124px;
+    height: 73px;
+}

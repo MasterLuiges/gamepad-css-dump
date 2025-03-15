@@ -16,7 +16,8 @@
 }
 
 .controller.custom {
-    background: url("assets/backgrounds/background.png") no-repeat;
+    background: url("assets/backgrounds/background-transparent.png") no-repeat;
     width: var(--background-width);
     height: var(--background-height);
+    mix-blend-mode: screen;
 }

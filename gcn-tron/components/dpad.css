@@ -1,0 +1,39 @@
+.custom .dpad .face.up{
+    background: url("../assets/dpad/Dpad top.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 136px;
+    left: 483px;
+    width: 38px;
+    height: 51px;
+}
+
+.custom .dpad .face.down {
+    background: url("../assets/dpad/Dpad bottom.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 207px;
+    left: 483px;
+    width: 38px;
+    height: 51px;
+}
+
+.custom .dpad .face.left {
+    background: url("../assets/dpad/Dpad left.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 178px;
+    left: 441px;
+    width: 51px;
+    height: 38px;
+}
+
+.custom .dpad .face.right {
+    background: url("../assets/dpad/Dpad right.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 178px;
+    left: 512px;
+    width: 51px;
+    height: 38px;
+}
