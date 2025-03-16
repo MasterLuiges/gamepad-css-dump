@@ -19,3 +19,7 @@
     width: var(--background-width);
     height: var(--background-height);
 }
+
+.custom .stick.left {
+    background: url("assets/sticks/L stick filled.png") no-repeat;
+}

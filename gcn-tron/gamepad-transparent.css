@@ -19,5 +19,8 @@
     background: url("assets/backgrounds/background-transparent.png") no-repeat;
     width: var(--background-width);
     height: var(--background-height);
-    mix-blend-mode: screen;
+}
+
+.custom .stick.left {
+    background: url("assets/sticks/L stick filled.png") no-repeat;
 }

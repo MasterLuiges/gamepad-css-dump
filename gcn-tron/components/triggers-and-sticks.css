@@ -23,23 +23,13 @@
 }
 
 .custom .stick.left{
-    background-color: black;
+    background: url("../assets/sticks/L stick.png") no-repeat;
+    background-size: cover;
     position: absolute;
     top: 120px;
     left: 59px;
     width: 113px;
     height: 113px;
-    border-radius: 50%;
-}
-
-.custom .stick.left::after{
-    content: '';
-    background: url("../assets/sticks/L stick.png") no-repeat;
-    background-size: cover;
-    position: absolute;
-    width: 113px;
-    height: 113px;
-    mix-blend-mode: difference;
 }
 
 .custom .stick.right {
